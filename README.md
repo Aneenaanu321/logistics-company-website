@@ -72,6 +72,26 @@ npm start
 - `npm start` - Start production server
 - `npm run lint` - Run ESLint
 
+## Deployment
+
+### Quick Deploy to Vercel (Recommended)
+
+1. Go to [vercel.com](https://vercel.com) and sign in with GitHub
+2. Click **"Add New Project"**
+3. Import your repository: `Aneenaanu321/logistics-company-website`
+4. Click **"Deploy"**
+5. Your site will be live in 1-2 minutes! 🚀
+
+**Live URL will be:** `https://logistics-company-website.vercel.app`
+
+### Other Deployment Options
+
+- **Netlify**: [netlify.com](https://netlify.com) - Similar to Vercel
+- **AWS Amplify**: AWS hosting solution
+- **DigitalOcean**: Cloud platform deployment
+
+See [DEPLOYMENT_GUIDE.md](./DEPLOYMENT_GUIDE.md) for detailed deployment instructions.
+
 ## Next Steps
 
 1. Create homepage with hero section
