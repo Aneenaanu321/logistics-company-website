@@ -1,0 +1,11 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "files.exclude": {
+    "**/logistics-website": true
+  },
+  "search.exclude": {
+    "**/logistics-website": true
+  }
+}
+
