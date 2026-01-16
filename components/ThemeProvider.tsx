@@ -1,8 +1,19 @@
 'use client'
 
-  import { ThemeProvider as NextThemesProvider, type ThemeProviderProps } from 'next-themes'
+import { ThemeProvider as NextThemesProvider, type ThemeProviderProps } from 'next-themes'
 
 export function ThemeProvider({ children, ...props }: ThemeProviderProps) {
-  return <NextThemesProvider {...props}>{children}</NextThemesProvider>
+  return (
+    <NextThemesProvider
+      attribute="class"
+      defaultTheme="light"
+      enableSystem={true}
+      storageKey="hm-theme"
+      disableTransitionOnChange={false}
+      {...props}
+    >
+      {children}
+    </NextThemesProvider>
+  )
 }
 
